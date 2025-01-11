@@ -1,0 +1,23 @@
+extraction:
+  MODEL_ID : "bigscience/bloom-560m"
+  MODEL_TYPE : "bigscience/bloom-560m"
+  MODEL_NAME : "bloom-560m"
+  HARMFUL_DATA : "mlabonne/harmful_behaviors"
+  HARMLESS_DATA : "mlabonne/harmless_alpaca"
+  N_SAMPLES : 128
+  TOKEN : 'your_token'
+
+analysis:
+  model_names : 
+    - 'Llama-3.2-1B-Instruct'
+    - 'Llama-3.2-3B-Instruct'
+    - 'Qwen2-0.5B-Instruct'
+    - 'Qwen2-1.5B-Instruct'
+    - 'bloom-3b'
+    - 'bloom-560m'
+  methods: 
+    - 'PCA'
+    - 't-SNE'
+    - 'UMAP'
+  label1 : 'harmful'
+  label2 : 'harmless'
