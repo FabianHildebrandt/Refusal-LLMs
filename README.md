@@ -2,7 +2,7 @@
 
 Refusal behavior in large language models (LLMs) refers to the model’s ability to decline responding to harmful, unethical, or inappropriate prompts, and it is a crucial aspect of LLM alignment. This behavior ensures that models adhere to safety guidelines, ethical standards, and societal norms. Previous studies on refusal ablation and jailbreak attacks have demonstrated how refusal can be identified in the latent space and disabled, resulting in uncensored models. This paper investigates refusal behavior by comparing its representation across six models from three architectural families. 
 
-
+![Video](Llama-3.2-3B-Instruct/Scatter_PCA.png)
 
 # How to get started
 
