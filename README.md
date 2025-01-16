@@ -8,9 +8,8 @@ https://github.com/user-attachments/assets/f19ae04b-c40d-412c-8e3b-fcd7008af3ca
 
 # How to get started
 
-1. [Link to the paper]()
-2. [All results]()
-3. Try it yourself and do your own experiments...
+1. [Link to the paper](https://arxiv.org/abs/2501.08145)
+2. Try it yourself and do your own experiments...
 
 # Reproduce the results 
 
