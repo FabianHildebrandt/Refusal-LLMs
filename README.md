@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/f19ae04b-c40d-412c-8e3b-fcd7008af3ca
 
 # Reproduce the results 
 
-1. Clone the repository.
+1. Fork and clone the repository.
 ```bash
 git clone https://github.com/FabianHildebrandt/Refusal-LLMs.git
 ```
@@ -25,7 +25,7 @@ cd Refusal-LLMs/
 
 3. Install the dependencies
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 4. Insert your Hugging Face token and the model you want to analyze in the [configuration](./config.yaml) in the section *extraction*.
